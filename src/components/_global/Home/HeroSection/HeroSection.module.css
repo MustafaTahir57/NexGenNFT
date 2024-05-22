@@ -1,0 +1,175 @@
+.heroSectionContainer {
+  /* padding: 70px 0;
+  padding-top: 150px; */
+}
+.heroSection {
+  margin: 0 auto;
+  /* background-image: url("../../../../Assets/bnb.png"),
+    url("../../../../Assets/eth.png"), url("../../../../Assets/sol.png"),
+    url("../../../../Assets/hte.png"), url("../../../../Assets/matic.png"),
+    url("../../../../Assets/avax.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-position: 10% 2%, 0% 50%, 10% 95%, right 10% top 2%,
+    right 0% top 50%, right 10% top 95%; */
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+
+
+.token {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #000000;
+  background-color: rgb(211, 211, 211);
+  padding: 8px 15px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 85.3608px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000000;
+  width: 100%;
+}
+.mobileTitle {
+  display: none;
+}
+.hightLight {
+  /* background: url("../../../../Assets/heroTextBg.png"); */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  color: #fff;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  color: #000000;
+  max-width: 670px;
+  width: 90%;
+  margin: 0 auto;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 25px;
+}
+.button {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+
+  text-align: center;
+  font-feature-settings: "ss06" on;
+  color: #000000;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  padding: 12px 30px;
+}
+.button:hover {
+  background: #000000;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.launchPadButton {
+  text-decoration: none;
+  background: #000000;
+  color: #ffffff;
+}
+
+.white {
+  color: white;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1199px) {
+  .title {
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .heroSectionContainer {
+    /* padding-top: 120px; */
+  }
+  .title {
+    display: none;
+    font-size: 70px;
+  }
+  .mobileTitle {
+    display: block;
+  }
+  .hightLight {
+    padding: 0;
+
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 60px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .title {
+    font-size: 48px;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .heroSection {
+    margin: 0 auto;
+    background-size: 30px;
+    background-position: 10% 2%, 0% 40%, 10% 75%, right 10% top 2%,
+      right 0% top 40%, right 10% top 75%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heroSection {
+    margin: 0 auto;
+    background-size: 30px;
+    background-position: 10% 2%, 0% 30%, 10% 75%, right 10% top 2%,
+      right 0% top 30%, right 10% top 75%;
+  }
+}
